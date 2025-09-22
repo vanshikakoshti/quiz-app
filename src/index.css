@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+
+.home-course-container{
+   @apply bg-blue-500 rounded-xl shadow-lg p-8 w-64 flex flex-col items-center text-white relative overflow-hidden 
+}
+.home-course-box{
+    @apply absolute top-0 left-0 w-full h-full bg-blue-500 rounded-xl  pointer-events-none
+}
+.home-course-btn{
+    @apply my-2 px-6 py-2 bg-blue-400 text-white rounded-lg shadow hover:bg-blue-700 transition
+}
+@tailwind utilities;
